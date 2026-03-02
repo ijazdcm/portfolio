@@ -1,124 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Mohamed Ijazudeen | Backend & ERP Developer</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link rel="stylesheet" href="style.css">
-  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ijaz | Backend & ERP Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
 </head>
 
 <body>
 
-<nav>
-  <div class="nav-container">
-    <h3>Ijaz</h3>
-    <div>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#architecture">Architecture</a>
-      <a href="#blog">Blog</a>
-      <a href="#contact">Contact</a>
-      <button id="theme-toggle">🌙</button>
-    </div>
-  </div>
-</nav>
+<header>
+  <nav class="navbar">
+    <div class="logo">Ijaz<span>.dev</span></div>
 
-<section class="hero">
-  <div class="container" data-aos="fade-up">
-    <h1>Mohamed Ijazudeen</h1>
-    <h2>Backend & ERP Developer</h2>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <button id="theme-toggle" class="theme-btn">🌙</button>
+  </nav>
+</header>
+
+<!-- Hero -->
+<section id="home" class="hero">
+  <canvas id="particles"></canvas>
+  <div class="hero-content">
+    <h1>Hey, I'm <span class="gradient-text">Ijaz</span> 👋</h1>
+    <h2 class="typing"></h2>
     <p>
-      I build secure API-driven systems, fintech integrations,
-      and scalable Odoo ERP solutions with CI/CD automation.
+      Backend & ERP Developer building secure API-driven systems,
+      fintech integrations, and scalable Odoo solutions with CI/CD automation.
     </p>
+    <a href="#projects" class="btn">Explore My Work 🚀</a>
   </div>
 </section>
 
-<section id="about" class="section">
-  <div class="container" data-aos="fade-right">
-    <h2>About Me</h2>
-    <p>
-      3+ years of experience building Odoo custom modules, fintech integrations,
-      WhatsApp chatbot automation, and CI/CD-based deployments.
-    </p>
+<!-- Skills -->
+<section id="skills" class="section fade-in">
+  <h2 class="section-title">⚙️ My Skills</h2>
+  <div class="skills-container">
+    <div class="skill-card">PHP</div>
+    <div class="skill-card">Laravel</div>
+    <div class="skill-card">Odoo</div>
+    <div class="skill-card">Azure</div>
+    <div class="skill-card">CI/CD</div>
+    <div class="skill-card">JavaScript</div>
+    <div class="skill-card">MySQL</div>
+    <div class="skill-card">PostgreSQL</div>
   </div>
 </section>
 
-<section id="projects" class="section bg-light">
-  <div class="container">
-    <h2 data-aos="fade-up">Projects</h2>
-
-    <div class="project-card" data-aos="fade-up">
+<!-- Projects -->
+<section id="projects" class="section fade-in">
+  <h2 class="section-title">🚀 Projects</h2>
+  <div class="projects-container">
+    <div class="project-card">
       <h3>Odoo CRM Automation</h3>
-      <p>VOIP webhook handlers, Zapier automation, 40% manual workflow reduction.</p>
+      <p>Custom CRM modules with VOIP webhook handlers and Zapier automation reducing manual workflow effort by ~40%.</p>
     </div>
-
-    <div class="project-card" data-aos="fade-up">
+    <div class="project-card">
       <h3>Fintech Banking Integration</h3>
-      <p>UK & Indian Bank API integration handling thousands of monthly transactions.</p>
+      <p>Integrated UK & Indian Bank APIs with secure webhook-based transaction handling.</p>
     </div>
-
-    <div class="project-card" data-aos="fade-up">
-      <h3>WhatsApp Chatbot System</h3>
-      <p>Gupshup-based chatbot integrated with Odoo APIs for lead automation.</p>
-    </div>
-  </div>
-</section>
-
-<section id="architecture" class="section">
-  <div class="container" data-aos="zoom-in">
-    <h2>System Architecture</h2>
-    <pre class="architecture-box">
-User → WhatsApp
-      ↓
-Webhook Handler (Odoo Module)
-      ↓
-REST API Layer
-      ↓
-PostgreSQL Database
-      ↓
-Zapier / External Systems
-    </pre>
-  </div>
-</section>
-
-<section id="github" class="section bg-light">
-  <div class="container" data-aos="fade-up">
-    <h2>GitHub Activity</h2>
-    <img src="https://github-readme-stats.vercel.app/api?username=ijazdcm&show_icons=true&theme=tokyonight" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ijazdcm&layout=compact&theme=tokyonight" />
-  </div>
-</section>
-
-<section id="blog" class="section">
-  <div class="container" data-aos="fade-up">
-    <h2>Technical Articles</h2>
-
     <div class="project-card">
-      <h3>Webhook Architecture in Odoo</h3>
-      <p>Designing secure and scalable webhook systems with retry mechanisms.</p>
-    </div>
-
-    <div class="project-card">
-      <h3>CI/CD Multi-Instance Deployment</h3>
-      <p>GitHub Actions + Tailscale secure deployment pipeline.</p>
+      <h3>Azure CI/CD Deployment</h3>
+      <p>Automated multi-environment deployment using GitHub Actions and Azure Pipelines.</p>
     </div>
   </div>
 </section>
 
-<section id="contact" class="section bg-dark">
-  <div class="container" data-aos="fade-up">
-    <h2>Contact</h2>
-    <p>Email: ijazdcm007@gmail.com</p>
-    <p>GitHub: github.com/ijazdcm</p>
-    <p>LinkedIn: linkedin.com/in/mohamed-ijazudeen-33235619b</p>
+<!-- Contact -->
+<section id="contact" class="section fade-in contact">
+  <h2 class="section-title">📩 Get in Touch</h2>
+  <p>Open for backend, ERP, and fintech-focused roles.</p>
+  <div class="contact-links">
+    <a href="mailto:ijazdcm007@gmail.com" class="contact-btn">📧 Email</a>
+    <a href="https://linkedin.com/in/mohamed-ijazudeen-33235619b" class="contact-btn">💼 LinkedIn</a>
+    <a href="https://github.com/ijazdcm" class="contact-btn">🐙 GitHub</a>
   </div>
 </section>
 
-<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-<script src="script.js"></script>
+<footer>
+  <p>© 2025 Ijaz | Built with clean code & scalable architecture</p>
+</footer>
 
 </body>
 </html>
