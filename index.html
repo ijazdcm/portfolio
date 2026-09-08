@@ -3,90 +3,133 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ijaz | Backend & ERP Developer</title>
+  <meta name="description" content="Ijaz — Senior Software Developer specializing in Odoo, Laravel, PHP, Python, APIs, PostgreSQL, CI/CD and cloud deployments." />
+  <meta name="theme-color" content="#0b1020" />
+  <title>Ijaz | Senior Software Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
   <script defer src="script.js"></script>
 </head>
-
 <body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Primary navigation">
+      <a class="logo" href="#home" aria-label="Ijaz home">ijaz<span>.dev</span></a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#expertise">Expertise</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="theme-toggle" class="theme-btn" aria-label="Toggle theme" title="Toggle theme">☾</button>
+    </nav>
+  </header>
 
-<header>
-  <nav class="navbar">
-    <div class="logo">Ijaz<span>.dev</span></div>
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="container hero-content">
+        <p class="eyebrow">SENIOR SOFTWARE DEVELOPER</p>
+        <h1>Building reliable software for <span>real business problems.</span></h1>
+        <p class="hero-copy">I design and build backend systems, ERP solutions, API integrations and deployment pipelines — with a strong focus on Odoo, Laravel, PHP, Python and PostgreSQL.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">View selected work</a>
+          <a class="btn btn-secondary" href="mailto:ijazdcm007@gmail.com">Let's talk</a>
+        </div>
+        <div class="hero-meta">
+          <span>Backend & ERP</span><span>API Integrations</span><span>CI/CD & Cloud</span>
+        </div>
+      </div>
+    </section>
 
-    <ul class="nav-links">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
+    <section id="about" class="section reveal">
+      <div class="container about-grid">
+        <div>
+          <p class="eyebrow">ABOUT</p>
+          <h2>Engineering with a product mindset.</h2>
+        </div>
+        <div class="section-copy">
+          <p>I work across application development and infrastructure: translating business workflows into maintainable software, integrating external services, improving deployment reliability, and extending Odoo for operational needs.</p>
+          <p>My strongest work sits where backend engineering, ERP workflows, integrations and automation meet.</p>
+        </div>
+      </div>
+    </section>
 
-    <button id="theme-toggle" class="theme-btn">🌙</button>
-  </nav>
-</header>
+    <section id="expertise" class="section section-alt reveal">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">EXPERTISE</p>
+          <h2>What I build</h2>
+        </div>
+        <div class="expertise-grid">
+          <article class="info-card"><span class="card-number">01</span><h3>Odoo & ERP</h3><p>Custom modules, CRM workflows, business automation, integrations and production support.</p></article>
+          <article class="info-card"><span class="card-number">02</span><h3>Backend Engineering</h3><p>Laravel and PHP applications, Python services, REST APIs, authentication and PostgreSQL/MySQL systems.</p></article>
+          <article class="info-card"><span class="card-number">03</span><h3>Integrations</h3><p>Banking and fintech APIs, webhooks, third-party services and event-driven business workflows.</p></article>
+          <article class="info-card"><span class="card-number">04</span><h3>DevOps & Delivery</h3><p>GitHub Actions, Azure, Linux, Docker and repeatable multi-environment deployment pipelines.</p></article>
+        </div>
+      </div>
+    </section>
 
-<!-- Hero -->
-<section id="home" class="hero">
-  <canvas id="particles"></canvas>
-  <div class="hero-content">
-    <h1>Hey, I'm <span class="gradient-text">Ijaz</span> 👋</h1>
-    <h2 class="typing"></h2>
-    <p>
-      Backend & ERP Developer building secure API-driven systems,
-      fintech integrations, and scalable Odoo solutions with CI/CD automation.
-    </p>
-    <a href="#projects" class="btn">Explore My Work 🚀</a>
-  </div>
-</section>
+    <section id="projects" class="section reveal">
+      <div class="container">
+        <div class="section-heading split-heading">
+          <div><p class="eyebrow">SELECTED WORK</p><h2>Projects that show how I think.</h2></div>
+          <p>Focused on systems with real workflows, integrations and operational impact.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card featured">
+            <div class="project-top"><span class="project-type">ERP / AUTOMATION</span><span class="project-index">01</span></div>
+            <h3>Odoo CRM Automation</h3>
+            <p>Custom CRM modules, VOIP webhook handlers and Zapier-driven automation designed to reduce repetitive manual workflows.</p>
+            <div class="tags"><span>Odoo</span><span>Python</span><span>Webhooks</span><span>Automation</span></div>
+          </article>
+          <article class="project-card">
+            <div class="project-top"><span class="project-type">FINTECH / API</span><span class="project-index">02</span></div>
+            <h3>Banking API Integration</h3>
+            <p>Secure integrations with UK and Indian banking APIs, including webhook-based transaction processing and backend workflows.</p>
+            <div class="tags"><span>PHP</span><span>Laravel</span><span>REST APIs</span><span>Webhooks</span></div>
+          </article>
+          <article class="project-card">
+            <div class="project-top"><span class="project-type">DEVOPS / CLOUD</span><span class="project-index">03</span></div>
+            <h3>Multi-environment CI/CD</h3>
+            <p>Automated deployment workflows for application environments using GitHub Actions, Azure and Linux-based infrastructure.</p>
+            <div class="tags"><span>GitHub Actions</span><span>Azure</span><span>Linux</span><span>CI/CD</span></div>
+          </article>
+          <article class="project-card">
+            <div class="project-top"><span class="project-type">ENGINEERING / ODOO</span><span class="project-index">04</span></div>
+            <h3>Odoo API Request Logger</h3>
+            <p>A focused engineering tool for capturing API request and response details to make integration debugging and observability easier.</p>
+            <div class="tags"><span>Odoo</span><span>Python</span><span>PostgreSQL</span><span>Observability</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
 
-<!-- Skills -->
-<section id="skills" class="section fade-in">
-  <h2 class="section-title">⚙️ My Skills</h2>
-  <div class="skills-container">
-    <div class="skill-card">PHP</div>
-    <div class="skill-card">Laravel</div>
-    <div class="skill-card">Odoo</div>
-    <div class="skill-card">Azure</div>
-    <div class="skill-card">CI/CD</div>
-    <div class="skill-card">JavaScript</div>
-    <div class="skill-card">MySQL</div>
-    <div class="skill-card">PostgreSQL</div>
-  </div>
-</section>
+    <section class="section section-alt reveal">
+      <div class="container stack-grid">
+        <div><p class="eyebrow">TECH STACK</p><h2>Tools I use to ship.</h2></div>
+        <div class="stack-list">
+          <span>PHP</span><span>Laravel</span><span>Odoo</span><span>Python</span><span>JavaScript</span><span>PostgreSQL</span><span>MySQL</span><span>REST APIs</span><span>Git</span><span>Docker</span><span>Linux</span><span>GitHub Actions</span><span>Azure</span>
+        </div>
+      </div>
+    </section>
 
-<!-- Projects -->
-<section id="projects" class="section fade-in">
-  <h2 class="section-title">🚀 Projects</h2>
-  <div class="projects-container">
-    <div class="project-card">
-      <h3>Odoo CRM Automation</h3>
-      <p>Custom CRM modules with VOIP webhook handlers and Zapier automation reducing manual workflow effort by ~40%.</p>
-    </div>
-    <div class="project-card">
-      <h3>Fintech Banking Integration</h3>
-      <p>Integrated UK & Indian Bank APIs with secure webhook-based transaction handling.</p>
-    </div>
-    <div class="project-card">
-      <h3>Azure CI/CD Deployment</h3>
-      <p>Automated multi-environment deployment using GitHub Actions and Azure Pipelines.</p>
-    </div>
-  </div>
-</section>
+    <section id="contact" class="section contact reveal">
+      <div class="container contact-box">
+        <p class="eyebrow">CONTACT</p>
+        <h2>Have a system that needs building or fixing?</h2>
+        <p>I'm open to backend, ERP, Odoo, fintech integration and software engineering opportunities.</p>
+        <div class="contact-actions">
+          <a class="btn btn-primary" href="mailto:ijazdcm007@gmail.com">ijazdcm007@gmail.com</a>
+          <a class="text-link" href="https://www.linkedin.com/in/mohamed-ijazudeen-33235619" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          <a class="text-link" href="https://github.com/ijazdcm" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
 
-<!-- Contact -->
-<section id="contact" class="section fade-in contact">
-  <h2 class="section-title">📩 Get in Touch</h2>
-  <p>Open for backend, ERP, and fintech-focused roles.</p>
-  <div class="contact-links">
-    <a href="mailto:ijazdcm007@gmail.com" class="contact-btn">📧 Email</a>
-    <a href="https://linkedin.com/in/mohamed-ijazudeen-33235619b" class="contact-btn">💼 LinkedIn</a>
-    <a href="https://github.com/ijazdcm" class="contact-btn">🐙 GitHub</a>
-  </div>
-</section>
-
-<footer>
-  <p>© 2025 Ijaz | Built with clean code & scalable architecture</p>
-</footer>
-
+  <footer><div class="container footer-inner"><span>© 2026 Ijaz</span><span>Backend · ERP · Integrations · DevOps</span></div></footer>
 </body>
 </html>
