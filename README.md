@@ -1,60 +1,60 @@
-# Portfolio
+# Ijaz — Senior Software Developer Portfolio
 
-Welcome to my portfolio repository! This is a curated collection of my projects, skills, and professional work.
+Personal portfolio for **Ijaz**, focused on backend engineering, Odoo/ERP development, API integrations and CI/CD automation.
 
-## 📋 About Me
+## Positioning
 
-I'm a developer passionate about creating meaningful projects and solving complex problems through code. This repository showcases my work across various domains and technologies.
+I build software around real business workflows — from ERP customizations and backend APIs to fintech integrations and automated deployments.
 
-## 🚀 Featured Projects
+### Core strengths
 
-- **Project 1**: Description of your first project
-  - Technologies: List the tech stack
-  - Link: [Repository/Demo Link]
+- **Odoo / ERP:** custom modules, CRM automation, integrations and production workflows
+- **Backend:** PHP, Laravel, Python, REST APIs
+- **Data:** PostgreSQL, MySQL
+- **DevOps:** Linux, Docker, GitHub Actions, Azure, CI/CD
+- **Integrations:** banking APIs, webhooks and third-party automation
+- **Frontend:** JavaScript and practical UI implementation
 
-- **Project 2**: Description of your second project
-  - Technologies: List the tech stack
-  - Link: [Repository/Demo Link]
+## Selected work
 
-- **Project 3**: Description of your third project
-  - Technologies: List the tech stack
-  - Link: [Repository/Demo Link]
+| Project | Focus | Stack |
+| --- | --- | --- |
+| Odoo CRM Automation | CRM workflows, VOIP webhooks and automation | Odoo, Python, Webhooks, Zapier |
+| Banking API Integration | Secure transaction and webhook processing | PHP, Laravel, REST APIs |
+| Multi-environment CI/CD | Repeatable application deployments | GitHub Actions, Azure, Linux |
+| Odoo API Request Logger | Integration debugging and observability | Odoo, Python, PostgreSQL |
 
-## 💻 Technical Skills
+> Some production work is private or client-owned. This portfolio describes the engineering problem and solution without exposing proprietary source code or credentials.
 
-- **Languages**: JavaScript, Python, Java, etc.
-- **Frontend**: React, Vue, HTML/CSS, etc.
-- **Backend**: Node.js, Django, Spring, etc.
-- **Databases**: PostgreSQL, MongoDB, etc.
-- **Tools & Platforms**: Git, Docker, AWS, etc.
+## Portfolio site
 
-## 📚 Experience
+The website in this repository is a lightweight, dependency-free static portfolio built with semantic HTML, CSS and JavaScript.
 
-### [Job Title] at [Company Name]
-*Month Year – Present*
-- Key accomplishment or responsibility
-- Key accomplishment or responsibility
+It includes:
 
-### [Previous Job Title] at [Previous Company]
-*Month Year – Month Year*
-- Key accomplishment or responsibility
-- Key accomplishment or responsibility
+- Responsive layout for desktop and mobile
+- Dark/light theme with persisted preference
+- Accessible mobile navigation
+- Reduced-motion support
+- SEO metadata
+- Selected project and technical-stack sections
 
-## 🎓 Education
+## Repository structure
 
-- **Degree/Certification Name** - Institution Name (Year)
+```text
+.
+├── index.html   # Portfolio content and structure
+├── style.css    # Responsive visual system
+├── script.js    # Navigation, theme and reveal interactions
+└── README.md    # Project documentation
+```
 
-## 📫 Get in Touch
+## Contact
 
-- **Email**: [your-email@example.com]
-- **LinkedIn**: [linkedin.com/in/yourprofile]
-- **Twitter**: [@yourhandle]
-- **GitHub**: [github.com/ijazdcm]
-
-## 📄 License
-
-This repository is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- **Email:** ijazdcm007@gmail.com
+- **LinkedIn:** https://www.linkedin.com/in/mohamed-ijazudeen-33235619
+- **GitHub:** https://github.com/ijazdcm
 
 ---
 
-*Last updated: March 2, 2026*
+Built to communicate engineering experience clearly — not just a list of technologies.
